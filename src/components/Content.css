@@ -1,0 +1,61 @@
+.contentContainer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  font-size: 15px;
+  font-family: Josefin Sans;
+  color: white;
+  background: #860a35;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 5px;
+  margin-right: 40px;
+}
+
+.designRow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  position: relative;
+}
+
+.image2 {
+  height: 80px;
+  width: 80px;
+  margin-right: 30px;
+}
+
+.image2:hover {
+  cursor: pointer;
+}
+
+.button2 {
+  font-size: 15px;
+  font-family: Josefin Sans;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+  position: absolute;
+  left: -200px;
+  top: 25%;
+}
+
+.selectedImageContainer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
